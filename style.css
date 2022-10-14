@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter Tight', sans-serif;
+}
+* { margin: 0; padding: 0; }
+#menu {
+    background: #111;
+    color: #eee;
+    height: 70px;
+    width: 100%;
+}
+.tables {}
+.tables ul {
+    
+}
+.tables ul li {
+    background: #111;
+    color: #eee;
+    float: left;
+    width: 155px;
+    height: 70px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5px;
+    border-right: 1px solid white;
+}
+.tables ul li .inf {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.tables ul li .inf .header {
+    padding: 0 5px;
+}
+.tables ul li .inf .adder {
+    display: flex;
+    width: 100%;
+}
+.tables ul li .inf .value {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+.tables ul li .inf .valuation {
+    display: flex;
+    width: 90%;
+    justify-content: flex-end;
+}
+.tables ul li .inf .valuation i {
+    padding: 0 3px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.diger {
+    padding: 20px;
+}
